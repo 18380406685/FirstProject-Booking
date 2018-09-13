@@ -1,0 +1,590 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="142" height="128" viewBox="0 0 142 128">
+  <defs>
+    <path id="illustration-a" d="M7.28856442,16.6576577 C-4.91929448,34.1452703 -0.682226994,58.2496246 16.752546,70.4943694 C34.1876933,82.7402402 58.2179509,78.4894895 70.4258098,61.0015015 C82.6336687,43.5138889 78.3969755,19.4099099 60.9618282,7.16441441 C54.2331166,2.43881381 46.5257853,0.170045045 38.8910552,0.17042042 C26.7430736,0.171546547 14.7852025,5.91854354 7.28856442,16.6576577 Z"/>
+    <path id="illustration-c" d="M0.282920245,0.880255255 C2.98638037,7.63475976 7.61863804,13.7124625 14.0172761,18.2068318 C18.083319,21.0623123 22.5045092,23.027027 27.0484479,24.1411411 C27.3725337,22.5960961 26.8901472,20.9241742 25.6357178,19.7909159 L5.43423926,1.5457958 C4.56152761,0.757882883 3.46951534,0.369744745 2.3812454,0.369744745 C1.65822699,0.369744745 0.936705521,0.540915916 0.282920245,0.880255255 Z"/>
+    <path id="illustration-e" d="M0.306122699,8.1478979 C0.398184049,12.975976 4.54693252,17.2421171 9.57288344,17.6786787 L21.8140491,18.7432432 C26.8396258,19.1809309 30.8390552,15.621997 30.7462454,10.7954204 C30.6545583,5.96734234 26.5058098,1.70157658 21.4802331,1.26426426 L9.23869325,0.1996997 C8.95839264,0.1753003 8.68146012,0.163288288 8.40826994,0.163288288 C3.7797546,0.163663664 0.21892638,3.59046547 0.306122699,8.1478979 Z"/>
+    <path id="illustration-g" d="M0.160546012,16.5281532 C0.145202454,16.5495495 0.130607362,16.5713213 0.115263804,16.5923423 L14.4206994,26.6396396 C19.4836994,30.1955706 26.4635215,28.9620871 30.0090061,23.8828829 L43.5757055,4.44857357 C44.0521043,3.76651652 44.4420552,3.04954955 44.7481779,2.31081081 C40.5260798,0.798423423 36.1355767,0.0596846847 31.7701472,0.0600600601 C19.6068221,0.0604354354 7.65044785,5.79842342 0.160546012,16.5281532 Z"/>
+    <path id="illustration-i" d="M1.90297546,2.2515015 L0.65790184,4.50487988 C-0.427374233,6.46846847 0.27992638,8.94144144 2.23679141,10.0292793 C4.19440491,11.1178679 6.65985276,10.408033 7.7447546,8.4451952 L8.98982822,6.19181682 C10.0754785,4.22822823 9.36780368,1.75525526 7.41093865,0.667417417 C6.78821472,0.320945946 6.11459509,0.156906907 5.44995706,0.156906907 C4.0248773,0.156906907 2.64283436,0.912537538 1.90297546,2.2515015 Z"/>
+    <path id="illustration-k" d="M0.072601227,4.74926235 C3.39990798,4.75337838 6.30620245,3.78153153 8.94641718,2.01051051 L1.12007975,0.198198198 L0.072601227,4.74926235 Z"/>
+    <path id="illustration-m" d="M10.5548712,7.75863363 C11.5795215,7.9954955 12.6041718,8.12725225 13.6183436,8.16141141 L14.7084847,3.4253003 L0.0931840491,0.0405405405 C2.23342331,3.91253754 5.95479755,6.69331832 10.5548712,7.75863363 Z"/>
+    <polygon id="illustration-o" points=".177 5.807 10.752 8.256 12.041 2.654 1.466 .205"/>
+    <path id="illustration-q" d="M1.20203681,5.45870871 L2.26934969,0.822447447 L0.154558282,0.332957958 C0.232773006,2.11599099 0.596527607,3.84309309 1.20203681,5.45870871 Z"/>
+    <path id="illustration-s" d="M0.292276074,5.67717718 C0.325582822,5.7454955 0.355895706,5.81569069 0.38995092,5.88363363 L10.8269387,8.30067568 L12.1161718,2.69857357 L1.54146626,0.25 L0.292276074,5.67717718 Z"/>
+    <path id="illustration-u" d="M0.293773006,5.80630631 L2.318,6.27515015 C4.03909816,4.96096096 5.50010429,3.2987988 6.5823865,1.36148649 L1.58300613,0.204204204 L0.293773006,5.80630631 Z"/>
+    <polygon id="illustration-w" points=".06 4.25 3.52 5.051 4.454 .994 .993 .193"/>
+    <polygon id="illustration-y" points=".299 4.245 25.487 10.078 26.42 6.021 1.233 .188"/>
+    <polygon id="illustration-A" points=".055 4.131 1.594 4.487 2.527 .43 .989 .074"/>
+    <path id="illustration-C" d="M0.353276074,5.71734234 L9.13428221,7.75075075 C9.66719018,6.68843844 10.0904479,5.55067568 10.3857178,4.34797297 L10.3890859,4.34872372 L10.8718466,2.25262763 L1.6425092,0.11524024 L0.353276074,5.71734234 Z"/>
+    <path id="illustration-E" d="M0.56209816,2.30255255 L0.565840491,2.30292793 C0.306122699,3.51351351 0.190858896,4.72297297 0.209570552,5.91291291 L8.98458896,7.94481982 L10.2738221,2.34271772 L1.0448589,0.20533033 L0.56209816,2.30255255 Z"/>
+    <polygon id="illustration-G" points=".205 5.826 11.934 8.542 13.223 2.94 1.494 .224"/>
+    <path id="illustration-I" d="M0.295644172,4.65015015 C0.409785276,4.99174174 0.534779141,5.32807808 0.670625767,5.65878378 L1.91569939,0.25 L1.33900613,0.116366366 L0.295644172,4.65015015 Z"/>
+    <path id="illustration-K" d="M0.123496933,4.88063063 C0.326331288,4.88475976 0.529165644,4.88363363 0.731625767,4.87875375 L1.81166258,0.18506006 L1.23534356,0.0518018018 L0.123496933,4.88063063 Z"/>
+    <polygon id="illustration-M" points=".141 .071 .718 .205 .725 .175 .148 .041"/>
+    <polygon id="illustration-O" points=".348 .042 .925 .176 .932 .147 .355 .013"/>
+    <polygon id="illustration-Q" points=".348 5.673 .925 5.807 2.215 .205 1.638 .071"/>
+    <polygon id="illustration-S" points=".258 .071 .835 .205 .842 .175 .265 .041"/>
+    <polygon id="illustration-U" points=".091 .042 .668 .176 .675 .146 .098 .012"/>
+    <polygon id="illustration-W" points=".091 5.673 .668 5.806 1.957 .204 1.381 .071"/>
+    <polygon id="illustration-Y" points=".151 5.959 .728 6.093 2.017 .491 1.44 .357"/>
+    <polygon id="illustration-aa" points=".097 4.111 .673 4.245 1.607 .188 1.03 .055"/>
+    <polygon id="illustration-ac" points=".231 4.116 .808 4.25 1.742 .193 1.165 .06"/>
+    <polygon id="illustration-ae" points=".216 .116 .793 .25 .807 .191 .23 .057"/>
+    <path id="illustration-ag" d="M0.228656442,5.51088589 L0.241006135,5.51388889 C-0.101791411,7.57432432 1.19342945,9.5701952 3.23599387,10.0431682 C5.27893252,10.5165165 7.3155092,9.29166667 7.90754601,7.28941441 L7.91989571,7.29204204 L9.17133129,1.85435435 L1.48046626,0.0731981982 L0.228656442,5.51088589 Z"/>
+    <path id="illustration-ai" d="M5.07572393,5.99512012 C6.74667485,6.38175676 8.38431902,6.14301802 9.6402454,5.44894895 C10.4661779,6.625 11.8332515,7.56006006 13.5042025,7.94632132 C15.1377301,8.3246997 16.7394479,8.10472973 17.9841472,7.44632132 C18.8145706,8.58558559 20.1584417,9.48761261 21.7915951,9.86599099 C23.3528957,10.2274775 24.8853804,10.0424174 26.1042577,9.45082583 C26.9410429,10.5183934 28.2373865,11.3584835 29.7986871,11.71997 C32.9403742,12.4478228 35.9653006,10.9617117 36.5543436,8.40127628 L0.453944785,0.0412912913 C-0.135472393,2.60172673 1.93403681,5.26726727 5.07572393,5.99512012 Z"/>
+    <polygon id="illustration-ak" points=".181 3.613 .953 5.632 10.169 2.083 9.397 .065"/>
+    <polygon id="illustration-am" points=".31 3.883 4.488 14.798 13.704 11.25 9.526 .333"/>
+    <polygon id="illustration-ao" points=".34 1.095 1.354 3.745 3.997 2.727 2.983 .077"/>
+    <polygon id="illustration-aq" points=".047 1.355 1.061 4.006 3.705 2.988 2.69 .337"/>
+    <polygon id="illustration-as" points=".159 2.285 3.05 9.838 8.725 7.653 5.835 .1"/>
+    <path id="illustration-au" d="M0.306496933,3.08033033 L7.22793865,21.1662913 L14.4244417,18.3952703 L7.50262577,0.309309309 L0.306496933,3.08033033 Z M15.7458589,5.38438438 L17.0257362,8.72785285 L11.533865,10.8427177 L14.4244417,18.3952703 L19.9163129,16.2811562 L19.9237975,16.3003003 L29.1400368,12.7518769 L24.9624724,1.83558559 L15.7458589,5.38438438 Z"/>
+    <polygon id="illustration-aw" points=".794 3.867 .13 7.529 3.728 6.143 7.327 4.758 4.392 2.482 1.457 .207"/>
+    <polygon id="illustration-ay" points=".25 3.316 1.099 5.535 9.214 2.411 8.364 .191"/>
+    <polygon id="illustration-aA" points=".273 3.614 1.046 5.632 10.262 2.084 9.489 .065"/>
+    <polygon id="illustration-aC" points=".269 1.192 1.284 3.843 3.926 2.825 2.912 .175"/>
+    <polygon id="illustration-aE" points=".187 1.307 1.202 3.958 3.845 2.94 2.831 .289"/>
+    <polygon id="illustration-aG" points="3.115 3.253 .093 6.402 2.098 29.393 5.619 31.968 9.141 34.542 8.642 28.818 8.143 23.095 7.136 11.552 6.636 5.828 6.137 .104"/>
+    <polygon id="illustration-aI" points=".051 .749 1.385 16.05 7.928 15.475 6.594 .175"/>
+    <polygon id="illustration-aK" points=".014 .598 .993 11.825 5.491 11.431 4.512 .203"/>
+    <polygon id="illustration-aM" points=".151 .395 .405 3.309 2.585 3.118 2.331 .203"/>
+    <polygon id="illustration-aO" points=".113 .558 .368 3.473 2.549 3.282 2.294 .367"/>
+    <polygon id="illustration-aQ" points=".175 .455 .429 3.37 2.61 3.179 2.355 .264"/>
+    <polygon id="illustration-aS" points=".317 .257 1.068 8.867 2.884 8.707 2.133 .098"/>
+    <polygon id="illustration-aU" points=".154 1.136 1.466 13.666 10.96 12.666 9.647 .135"/>
+    <polygon id="illustration-aW" points=".32 2.006 .924 7.771 17.289 6.047 16.685 .28"/>
+    <polygon id="illustration-aY" points=".143 .314 1.819 16.31 3.295 16.155 1.619 .158"/>
+    <path id="illustration-ba" d="M0.877576687,0.371621622 C0.422509202,0.41966967 0.0924355828,0.828453453 0.140337423,1.28490991 L0.40192638,3.78303303 C0.449828221,4.23948949 0.857742331,4.57057057 1.31243558,4.5228979 C1.7678773,4.47484985 2.09832515,4.06569069 2.05042331,3.60923423 L1.78883436,1.11111111 C1.74392638,0.683933934 1.38428834,0.367117117 0.965521472,0.367117117 C0.936705521,0.367117117 0.907141104,0.368618619 0.877576687,0.371621622 Z"/>
+    <path id="illustration-bc" d="M0.913877301,0.190690691 C0.458435583,0.238738739 0.128736196,0.647897898 0.176263804,1.10435435 L0.437852761,3.6021021 C0.485754601,4.05855856 0.893294479,4.38963964 1.3487362,4.34196697 C1.80417791,4.29391892 2.13462577,3.88513514 2.08672393,3.42867868 L1.82513497,0.93018018 C1.78022699,0.503378378 1.42096319,0.185810811 1.00219632,0.186186186 C0.973006135,0.186186186 0.943441718,0.187687688 0.913877301,0.190690691 Z"/>
+    <path id="illustration-be" d="M0.89591411,0.0934684685 C0.440472393,0.141141141 0.110398773,0.549924925 0.15792638,1.00675676 L0.419889571,3.50525526 C0.467791411,3.96171171 0.875331288,4.29279279 1.33077301,4.24436937 C1.78621472,4.19632132 2.11628834,3.78753754 2.06876074,3.33070571 L1.80679755,0.833333333 C1.76188957,0.406156156 1.40225153,0.0885885886 0.983484663,0.0885885886 C0.954668712,0.0885885886 0.925478528,0.0900900901 0.89591411,0.0934684685 Z"/>
+    <polygon id="illustration-bg" points=".326 .421 .783 4.785 3.816 4.465 3.359 .101"/>
+    <polygon id="illustration-bi" points=".239 .901 .539 3.758 5.669 3.217 5.369 .36"/>
+    <polygon id="illustration-bk" points=".359 .335 .658 3.192 1.635 3.089 1.335 .232"/>
+    <polygon id="illustration-bm" points=".071 .23 .528 4.593 1.505 4.49 1.048 .127"/>
+    <path id="illustration-bo" d="M5.47914724,0.361486486 C2.27945399,0.698573574 -0.040791411,3.57207207 0.294895706,6.77965465 C0.630957055,9.98723724 3.49683436,12.3138138 6.69615337,11.9763514 C9.89509816,11.6392643 12.216092,8.76539039 11.8804049,5.55855856 C11.5656748,2.55818318 9.03847853,0.328828829 6.09513497,0.328828829 C5.89155215,0.328828829 5.68572393,0.339714715 5.47914724,0.361486486 Z"/>
+    <path id="illustration-bq" d="M6.58051534,0.293543544 C2.6772638,0.704954955 -0.154558282,4.21096096 0.255226994,8.12424925 C0.665386503,12.0371622 4.16222086,14.8761261 8.06509816,14.4647147 C11.9687239,14.0533033 14.8001718,10.5472973 14.3903865,6.63400901 C14.0067975,2.9740991 10.9231166,0.253753754 7.33234969,0.253753754 C7.0838589,0.253753754 6.8331227,0.266891892 6.58051534,0.293543544 Z"/>
+    <path id="illustration-bs" d="M6.03301227,0.318318318 C2.53767485,0.686561562 0.00187116564,3.82582583 0.368619632,7.32995495 C0.735742331,10.8340841 3.86732515,13.3761261 7.36228834,13.0078829 C10.8576258,12.6392643 13.3934294,9.5 13.0263067,5.99587087 C12.6827607,2.71846847 9.92166871,0.282657658 6.7066319,0.282657658 C6.48396319,0.282657658 6.25942331,0.294294294 6.03301227,0.318318318 Z"/>
+    <path id="illustration-bu" d="M7.41093865,0.320570571 C3.07095706,0.778528529 -0.0778404908,4.6768018 0.37797546,9.02815315 C0.833791411,13.3795045 4.72207362,16.5356607 9.06205521,16.0780781 C13.402411,15.6204955 16.5515828,11.7222222 16.0950184,7.37087087 C15.6687669,3.30105105 12.2400429,0.276276276 8.24660123,0.276651652 C7.97079141,0.276651652 7.6916135,0.290915916 7.41093865,0.320570571 Z"/>
+    <path id="illustration-bw" d="M0.421760736,16.1741742 C1.09276074,22.5762012 2.91976687,28.1501502 5.22092638,31.6295045 L1.91233129,0.0555555556 C0.382466258,3.93881381 -0.249239264,9.7713964 0.421760736,16.1741742 Z"/>
+    <polygon id="illustration-by" points=".232 10.63 1.829 17.444 12.681 6.933 11.083 .119"/>
+    <polygon id="illustration-bA" points=".346 10.714 7.08 12.553 17.932 2.041 11.198 .202"/>
+    <polygon id="illustration-bC" points=".333 13.724 5.502 19.092 19.321 5.706 14.152 .338"/>
+    <polygon id="illustration-bE" points=".092 2.528 2.483 5.012 4.959 2.613 2.568 .13"/>
+    <polygon id="illustration-bG" points=".274 2.571 3.205 5.616 5.522 3.372 2.591 .328"/>
+    <polygon id="illustration-bI" points=".214 2.643 2.605 5.127 5.082 2.728 2.691 .245"/>
+    <polygon id="illustration-bK" points=".13 32.291 15.551 43.121 38.025 10.926 22.605 .096"/>
+    <polygon id="illustration-bM" points=".143 2.944 10.745 10.391 12.606 7.724 2.004 .278"/>
+    <polygon id="illustration-bO" points=".284 2.847 6.189 6.994 8.05 4.328 2.146 .181"/>
+    <polygon id="illustration-bQ" points=".052 2.75 10.654 10.196 12.515 7.53 1.913 .084"/>
+    <polygon id="illustration-bS" points=".193 3.029 6.097 7.176 7.958 4.51 2.055 .363"/>
+    <polygon id="illustration-bU" points=".335 2.932 10.936 10.378 12.798 7.712 2.196 .266"/>
+    <polygon id="illustration-bW" points=".102 2.835 10.704 10.281 12.565 7.615 1.963 .169"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <circle cx="72" cy="65" r="63" fill="#F7F7F7" fill-rule="nonzero"/>
+    <circle cx="72" cy="65" r="52" fill="#EDEDED" fill-rule="nonzero"/>
+    <circle cx="20" cy="12" r="2" fill="#75C6EE" fill-rule="nonzero"/>
+    <circle cx="130" cy="37" r="2" fill="#75C6EE" fill-rule="nonzero"/>
+    <circle cx="130" cy="94" r="2" fill="#75C6EE" fill-rule="nonzero"/>
+    <circle cx="26" cy="44" r="2" fill="#75C6EE" fill-rule="nonzero"/>
+    <circle cx="34" cy="114" r="2" fill="#75C6EE" fill-rule="nonzero"/>
+    <g fill="#DE7778" transform="translate(20 25)">
+      <path d="M2.420525,4.841 C2.214775,4.841 2.048025,4.67425 2.048025,4.46875 L2.048025,0.37225 C2.048025,0.16675 2.214775,0 2.420525,0 C2.626275,0 2.792775,0.16675 2.792775,0.37225 L2.792775,4.46875 C2.792775,4.67425 2.626275,4.841 2.420525,4.841"/>
+      <path d="M0,2.420475 C0,2.214975 0.16675,2.048225 0.3725,2.048225 L4.46875,2.048225 C4.67425,2.048225 4.841,2.214975 4.841,2.420475 C4.841,2.626225 4.67425,2.792975 4.46875,2.792975 L0.3725,2.792975 C0.16675,2.792975 0,2.626225 0,2.420475"/>
+      <path d="M0.708975,4.132025 C0.563475,3.986525 0.563475,3.751025 0.708975,3.605525 L3.605475,0.709025 C3.750725,0.563525 3.986725,0.563525 4.131975,0.709025 C4.277475,0.854525 4.277475,1.090275 4.131975,1.235775 L1.235475,4.132025 C1.090225,4.277525 0.854475,4.277525 0.708975,4.132025"/>
+      <path d="M0.708975,0.708925 C0.854475,0.563425 1.090225,0.563425 1.235475,0.708925 L4.131975,3.605425 C4.277475,3.750925 4.277475,3.986675 4.131975,4.131925 C3.986725,4.277425 3.750725,4.277425 3.605475,4.131925 L0.708975,1.235675 C0.563475,1.090175 0.563475,0.854425 0.708975,0.708925"/>
+    </g>
+    <g fill="#DE7778" transform="translate(10 45)">
+      <path d="M2.420525,4.841 C2.214775,4.841 2.048025,4.67425 2.048025,4.46875 L2.048025,0.37225 C2.048025,0.16675 2.214775,0 2.420525,0 C2.626275,0 2.792775,0.16675 2.792775,0.37225 L2.792775,4.46875 C2.792775,4.67425 2.626275,4.841 2.420525,4.841"/>
+      <path d="M0,2.420475 C0,2.214975 0.16675,2.048225 0.3725,2.048225 L4.46875,2.048225 C4.67425,2.048225 4.841,2.214975 4.841,2.420475 C4.841,2.626225 4.67425,2.792975 4.46875,2.792975 L0.3725,2.792975 C0.16675,2.792975 0,2.626225 0,2.420475"/>
+      <path d="M0.708975,4.132025 C0.563475,3.986525 0.563475,3.751025 0.708975,3.605525 L3.605475,0.709025 C3.750725,0.563525 3.986725,0.563525 4.131975,0.709025 C4.277475,0.854525 4.277475,1.090275 4.131975,1.235775 L1.235475,4.132025 C1.090225,4.277525 0.854475,4.277525 0.708975,4.132025"/>
+      <path d="M0.708975,0.708925 C0.854475,0.563425 1.090225,0.563425 1.235475,0.708925 L4.131975,3.605425 C4.277475,3.750925 4.277475,3.986675 4.131975,4.131925 C3.986725,4.277425 3.750725,4.277425 3.605475,4.131925 L0.708975,1.235675 C0.563475,1.090175 0.563475,0.854425 0.708975,0.708925"/>
+    </g>
+    <g fill="#DE7778" transform="translate(22 105)">
+      <path d="M2.420525,4.841 C2.214775,4.841 2.048025,4.67425 2.048025,4.46875 L2.048025,0.37225 C2.048025,0.16675 2.214775,0 2.420525,0 C2.626275,0 2.792775,0.16675 2.792775,0.37225 L2.792775,4.46875 C2.792775,4.67425 2.626275,4.841 2.420525,4.841"/>
+      <path d="M0,2.420475 C0,2.214975 0.16675,2.048225 0.3725,2.048225 L4.46875,2.048225 C4.67425,2.048225 4.841,2.214975 4.841,2.420475 C4.841,2.626225 4.67425,2.792975 4.46875,2.792975 L0.3725,2.792975 C0.16675,2.792975 0,2.626225 0,2.420475"/>
+      <path d="M0.708975,4.132025 C0.563475,3.986525 0.563475,3.751025 0.708975,3.605525 L3.605475,0.709025 C3.750725,0.563525 3.986725,0.563525 4.131975,0.709025 C4.277475,0.854525 4.277475,1.090275 4.131975,1.235775 L1.235475,4.132025 C1.090225,4.277525 0.854475,4.277525 0.708975,4.132025"/>
+      <path d="M0.708975,0.708925 C0.854475,0.563425 1.090225,0.563425 1.235475,0.708925 L4.131975,3.605425 C4.277475,3.750925 4.277475,3.986675 4.131975,4.131925 C3.986725,4.277425 3.750725,4.277425 3.605475,4.131925 L0.708975,1.235675 C0.563475,1.090175 0.563475,0.854425 0.708975,0.708925"/>
+    </g>
+    <g fill="#DE7778" transform="translate(80)">
+      <path d="M2.420525,4.841 C2.214775,4.841 2.048025,4.67425 2.048025,4.46875 L2.048025,0.37225 C2.048025,0.16675 2.214775,0 2.420525,0 C2.626275,0 2.792775,0.16675 2.792775,0.37225 L2.792775,4.46875 C2.792775,4.67425 2.626275,4.841 2.420525,4.841"/>
+      <path d="M0,2.420475 C0,2.214975 0.16675,2.048225 0.3725,2.048225 L4.46875,2.048225 C4.67425,2.048225 4.841,2.214975 4.841,2.420475 C4.841,2.626225 4.67425,2.792975 4.46875,2.792975 L0.3725,2.792975 C0.16675,2.792975 0,2.626225 0,2.420475"/>
+      <path d="M0.708975,4.132025 C0.563475,3.986525 0.563475,3.751025 0.708975,3.605525 L3.605475,0.709025 C3.750725,0.563525 3.986725,0.563525 4.131975,0.709025 C4.277475,0.854525 4.277475,1.090275 4.131975,1.235775 L1.235475,4.132025 C1.090225,4.277525 0.854475,4.277525 0.708975,4.132025"/>
+      <path d="M0.708975,0.708925 C0.854475,0.563425 1.090225,0.563425 1.235475,0.708925 L4.131975,3.605425 C4.277475,3.750925 4.277475,3.986675 4.131975,4.131925 C3.986725,4.277425 3.750725,4.277425 3.605475,4.131925 L0.708975,1.235675 C0.563475,1.090175 0.563475,0.854425 0.708975,0.708925"/>
+    </g>
+    <g fill="#DE7778" transform="translate(137 50)">
+      <path d="M2.420525,4.841 C2.214775,4.841 2.048025,4.67425 2.048025,4.46875 L2.048025,0.37225 C2.048025,0.16675 2.214775,0 2.420525,0 C2.626275,0 2.792775,0.16675 2.792775,0.37225 L2.792775,4.46875 C2.792775,4.67425 2.626275,4.841 2.420525,4.841"/>
+      <path d="M0,2.420475 C0,2.214975 0.16675,2.048225 0.3725,2.048225 L4.46875,2.048225 C4.67425,2.048225 4.841,2.214975 4.841,2.420475 C4.841,2.626225 4.67425,2.792975 4.46875,2.792975 L0.3725,2.792975 C0.16675,2.792975 0,2.626225 0,2.420475"/>
+      <path d="M0.708975,4.132025 C0.563475,3.986525 0.563475,3.751025 0.708975,3.605525 L3.605475,0.709025 C3.750725,0.563525 3.986725,0.563525 4.131975,0.709025 C4.277475,0.854525 4.277475,1.090275 4.131975,1.235775 L1.235475,4.132025 C1.090225,4.277525 0.854475,4.277525 0.708975,4.132025"/>
+      <path d="M0.708975,0.708925 C0.854475,0.563425 1.090225,0.563425 1.235475,0.708925 L4.131975,3.605425 C4.277475,3.750925 4.277475,3.986675 4.131975,4.131925 C3.986725,4.277425 3.750725,4.277425 3.605475,4.131925 L0.708975,1.235675 C0.563475,1.090175 0.563475,0.854425 0.708975,0.708925"/>
+    </g>
+    <g fill="#DE7778" transform="translate(117 100)">
+      <path d="M2.420525,4.841 C2.214775,4.841 2.048025,4.67425 2.048025,4.46875 L2.048025,0.37225 C2.048025,0.16675 2.214775,0 2.420525,0 C2.626275,0 2.792775,0.16675 2.792775,0.37225 L2.792775,4.46875 C2.792775,4.67425 2.626275,4.841 2.420525,4.841"/>
+      <path d="M0,2.420475 C0,2.214975 0.16675,2.048225 0.3725,2.048225 L4.46875,2.048225 C4.67425,2.048225 4.841,2.214975 4.841,2.420475 C4.841,2.626225 4.67425,2.792975 4.46875,2.792975 L0.3725,2.792975 C0.16675,2.792975 0,2.626225 0,2.420475"/>
+      <path d="M0.708975,4.132025 C0.563475,3.986525 0.563475,3.751025 0.708975,3.605525 L3.605475,0.709025 C3.750725,0.563525 3.986725,0.563525 4.131975,0.709025 C4.277475,0.854525 4.277475,1.090275 4.131975,1.235775 L1.235475,4.132025 C1.090225,4.277525 0.854475,4.277525 0.708975,4.132025"/>
+      <path d="M0.708975,0.708925 C0.854475,0.563425 1.090225,0.563425 1.235475,0.708925 L4.131975,3.605425 C4.277475,3.750925 4.277475,3.986675 4.131975,4.131925 C3.986725,4.277425 3.750725,4.277425 3.605475,4.131925 L0.708975,1.235675 C0.563475,1.090175 0.563475,0.854425 0.708975,0.708925"/>
+    </g>
+    <g transform="translate(0 1)">
+      <g transform="translate(32.184 29.243)">
+        <mask id="illustration-b" fill="#fff">
+          <use xlink:href="#illustration-a"/>
+        </mask>
+        <polygon fill="#FDCE59" points="29.215 -16.023 93.543 29.157 48.5 93.682 -15.828 48.502" mask="url(#illustration-b)"/>
+      </g>
+      <g transform="translate(35.178 81.796)">
+        <mask id="illustration-d" fill="#fff">
+          <use xlink:href="#illustration-c"/>
+        </mask>
+        <polygon fill="#61DBBB" points="1.507 -2.145 31.554 18.959 25.72 27.316 -4.327 6.213" mask="url(#illustration-d)"/>
+      </g>
+      <g transform="translate(56.135 71.285)">
+        <mask id="illustration-f" fill="#fff">
+          <use xlink:href="#illustration-e"/>
+        </mask>
+        <polygon fill="#61DBBB" points="9.849 -9.455 35.199 8.35 21.204 28.398 -4.146 10.594" mask="url(#illustration-f)"/>
+      </g>
+      <g transform="translate(38.92 29.243)">
+        <mask id="illustration-h" fill="#fff">
+          <use xlink:href="#illustration-g"/>
+        </mask>
+        <polygon fill="#61DBBB" points="21.31 -15.041 45.975 2.282 23.768 34.094 -.897 16.772" mask="url(#illustration-h)"/>
+      </g>
+      <g transform="translate(80.46 41.63)">
+        <mask id="illustration-j" fill="#fff">
+          <use xlink:href="#illustration-i"/>
+        </mask>
+        <polygon fill="#61DBBB" points="11.942 2.353 6.064 12.991 -2.294 8.344 3.584 -2.294" mask="url(#illustration-j)"/>
+      </g>
+      <g transform="translate(59.877 119.709)">
+        <mask id="illustration-l" fill="#fff">
+          <use xlink:href="#illustration-k"/>
+        </mask>
+        <polygon fill="#72C5F0" points="8.444 7.436 -.799 5.296 .575 -.676 9.818 1.464" mask="url(#illustration-l)"/>
+      </g>
+      <g transform="translate(45.656 116.33)">
+        <mask id="illustration-n" fill="#fff">
+          <use xlink:href="#illustration-m"/>
+        </mask>
+        <polygon fill="#72C5F0" points="14.096 9.327 -1.936 5.614 -.452 -.834 15.58 2.879" mask="url(#illustration-n)"/>
+      </g>
+      <g transform="translate(56.135 112.201)">
+        <mask id="illustration-p" fill="#fff">
+          <use xlink:href="#illustration-o"/>
+        </mask>
+        <polygon fill="#72C5F0" points="11.296 9.13 -.695 6.353 .921 -.67 12.913 2.107" mask="url(#illustration-p)"/>
+      </g>
+      <g transform="translate(43.411 108.823)">
+        <mask id="illustration-r" fill="#fff">
+          <use xlink:href="#illustration-q"/>
+        </mask>
+        <polygon fill="#72C5F0" points="1.747 6.333 -1.784 5.515 -.39 -.541 3.141 .276" mask="url(#illustration-r)"/>
+      </g>
+      <g transform="translate(44.908 109.574)">
+        <mask id="illustration-t" fill="#fff">
+          <use xlink:href="#illustration-s"/>
+        </mask>
+        <polygon fill="#72C5F0" points="11.372 9.175 -.62 6.398 .997 -.624 12.988 2.152" mask="url(#illustration-t)"/>
+      </g>
+      <g transform="translate(67.362 114.829)">
+        <mask id="illustration-v" fill="#fff">
+          <use xlink:href="#illustration-u"/>
+        </mask>
+        <polygon fill="#72C5F0" points="5.837 7.838 -.578 6.352 1.039 -.67 7.454 .815" mask="url(#illustration-v)"/>
+      </g>
+      <g transform="translate(72.601 104.318)">
+        <mask id="illustration-x" fill="#fff">
+          <use xlink:href="#illustration-w"/>
+        </mask>
+        <polygon fill="#72C5F0" points="4.065 5.926 -.812 4.796 .449 -.681 5.326 .448" mask="url(#illustration-x)"/>
+      </g>
+      <g transform="translate(46.405 98.312)">
+        <mask id="illustration-z" fill="#fff">
+          <use xlink:href="#illustration-y"/>
+        </mask>
+        <polygon fill="#72C5F0" points="26.031 10.952 -.572 4.792 .688 -.686 27.292 5.475" mask="url(#illustration-z)"/>
+      </g>
+      <g transform="translate(44.534 97.937)">
+        <mask id="illustration-B" fill="#fff">
+          <use xlink:href="#illustration-A"/>
+        </mask>
+        <polygon fill="#72C5F0" points="2.138 5.361 -.816 4.677 .445 -.8 3.399 -.116" mask="url(#illustration-B)"/>
+      </g>
+      <g transform="translate(65.117 107.697)">
+        <mask id="illustration-D" fill="#fff">
+          <use xlink:href="#illustration-C"/>
+        </mask>
+        <polygon fill="#72C5F0" points="10.127 8.729 -.518 6.264 1.098 -.759 11.743 1.706" mask="url(#illustration-D)"/>
+      </g>
+      <g transform="translate(43.411 102.441)">
+        <mask id="illustration-F" fill="#fff">
+          <use xlink:href="#illustration-E"/>
+        </mask>
+        <polygon fill="#72C5F0" points="9.529 8.819 -1.116 6.354 .5 -.669 11.145 1.797" mask="url(#illustration-F)"/>
+      </g>
+      <g transform="translate(52.767 104.694)">
+        <mask id="illustration-H" fill="#fff">
+          <use xlink:href="#illustration-G"/>
+        </mask>
+        <polygon fill="#72C5F0" points="12.479 9.417 -.666 6.373 .95 -.65 14.095 2.394" mask="url(#illustration-H)"/>
+      </g>
+      <g transform="translate(44.534 109.574)">
+        <mask id="illustration-J" fill="#fff">
+          <use xlink:href="#illustration-I"/>
+        </mask>
+        <polygon fill="#FEFEFE" points="1.215 6.533 -.778 6.072 .794 -.758 2.787 -.297" mask="url(#illustration-J)"/>
+      </g>
+      <g transform="translate(59.129 119.709)">
+        <mask id="illustration-L" fill="#fff">
+          <use xlink:href="#illustration-K"/>
+        </mask>
+        <polygon fill="#FEFEFE" points="1.245 5.889 -.748 5.428 .69 -.823 2.684 -.361" mask="url(#illustration-L)"/>
+      </g>
+      <g transform="translate(56.883 112.201)">
+        <mask id="illustration-N" fill="#fff">
+          <use xlink:href="#illustration-M"/>
+        </mask>
+        <polygon fill="#FEFEFE" points="1.263 1.079 -.731 .617 -.397 -.833 1.596 -.371" mask="url(#illustration-N)"/>
+      </g>
+      <g transform="translate(55.387 117.832)">
+        <mask id="illustration-P" fill="#fff">
+          <use xlink:href="#illustration-O"/>
+        </mask>
+        <polygon fill="#FEFEFE" points="1.47 1.051 -.523 .589 -.19 -.862 1.804 -.4" mask="url(#illustration-P)"/>
+      </g>
+      <g transform="translate(55.387 112.201)">
+        <mask id="illustration-R" fill="#fff">
+          <use xlink:href="#illustration-Q"/>
+        </mask>
+        <polygon fill="#FEFEFE" points="1.47 6.681 -.523 6.22 1.093 -.803 3.086 -.342" mask="url(#illustration-R)"/>
+      </g>
+      <g transform="translate(68.11 114.829)">
+        <mask id="illustration-T" fill="#fff">
+          <use xlink:href="#illustration-S"/>
+        </mask>
+        <polygon fill="#FEFEFE" points="1.38 1.078 -.614 .617 -.28 -.834 1.713 -.372" mask="url(#illustration-T)"/>
+      </g>
+      <g transform="translate(66.988 120.46)">
+        <mask id="illustration-V" fill="#fff">
+          <use xlink:href="#illustration-U"/>
+        </mask>
+        <polygon fill="#FEFEFE" points="1.213 1.05 -.78 .588 -.447 -.862 1.547 -.401" mask="url(#illustration-V)"/>
+      </g>
+      <g transform="translate(66.988 114.829)">
+        <mask id="illustration-X" fill="#fff">
+          <use xlink:href="#illustration-W"/>
+        </mask>
+        <polygon fill="#FEFEFE" points="1.213 6.68 -.78 6.219 .836 -.804 2.829 -.342" mask="url(#illustration-X)"/>
+      </g>
+      <g transform="translate(64.742 107.321)">
+        <mask id="illustration-Z" fill="#fff">
+          <use xlink:href="#illustration-Y"/>
+        </mask>
+        <polygon fill="#FEFEFE" points="1.272 6.967 -.721 6.506 .896 -.517 2.888 -.056" mask="url(#illustration-Z)"/>
+      </g>
+      <g transform="translate(46.03 98.312)">
+        <mask id="illustration-ab" fill="#fff">
+          <use xlink:href="#illustration-aa"/>
+        </mask>
+        <polygon fill="#FEFEFE" points="1.218 5.12 -.775 4.658 .486 -.82 2.479 -.358" mask="url(#illustration-ab)"/>
+      </g>
+      <g transform="translate(71.853 104.318)">
+        <mask id="illustration-ad" fill="#fff">
+          <use xlink:href="#illustration-ac"/>
+        </mask>
+        <polygon fill="#FEFEFE" points="1.353 5.124 -.64 4.663 .62 -.814 2.613 -.353" mask="url(#illustration-ad)"/>
+      </g>
+      <g transform="translate(45.656 109.574)">
+        <mask id="illustration-af" fill="#fff">
+          <use xlink:href="#illustration-ae"/>
+        </mask>
+        <polygon fill="#FEFEFE" points="1.338 1.124 -.655 .663 -.315 -.818 1.678 -.356" mask="url(#illustration-af)"/>
+      </g>
+      <g transform="translate(55.387 100.565)">
+        <mask id="illustration-ah" fill="#fff">
+          <use xlink:href="#illustration-ag"/>
+        </mask>
+        <polygon fill="#FFF" points="7.626 11.808 -1.481 9.699 .936 -.801 10.043 1.308" mask="url(#illustration-ah)"/>
+      </g>
+      <g transform="translate(42.663 94.559)">
+        <mask id="illustration-aj" fill="#fff">
+          <use xlink:href="#illustration-ai"/>
+        </mask>
+        <polygon fill="#FFF" points="36.032 13.912 -1.485 5.224 -.091 -.833 37.427 7.855" mask="url(#illustration-aj)"/>
+      </g>
+      <g transform="translate(35.178 26.24)">
+        <mask id="illustration-al" fill="#fff">
+          <use xlink:href="#illustration-ak"/>
+        </mask>
+        <polygon fill="#A3B1BF" points="-.758 3.194 9.815 -.877 11.109 2.502 .535 6.573" mask="url(#illustration-al)"/>
+      </g>
+      <g transform="translate(36.3 29.243)">
+        <mask id="illustration-an" fill="#fff">
+          <use xlink:href="#illustration-am"/>
+        </mask>
+        <polygon fill="#A3B1BF" points="-.629 3.463 9.945 -.608 14.643 11.669 4.07 15.74" mask="url(#illustration-an)"/>
+      </g>
+      <g transform="translate(34.055 26.24)">
+        <mask id="illustration-ap" fill="#fff">
+          <use xlink:href="#illustration-ao"/>
+        </mask>
+        <polygon fill="#A3B1BF" points="-.599 .676 3.401 -.865 4.936 3.147 .936 4.687" mask="url(#illustration-ap)"/>
+      </g>
+      <g transform="translate(38.546 24.363)">
+        <mask id="illustration-ar" fill="#fff">
+          <use xlink:href="#illustration-aq"/>
+        </mask>
+        <polygon fill="#A3B1BF" points="-.892 .936 3.108 -.604 4.643 3.408 .643 4.948" mask="url(#illustration-ar)"/>
+      </g>
+      <g transform="translate(46.78 30.745)">
+        <mask id="illustration-at" fill="#fff">
+          <use xlink:href="#illustration-as"/>
+        </mask>
+        <polygon fill="#A3B1BF" points="-.78 1.866 6.252 -.842 9.664 8.072 2.632 10.78" mask="url(#illustration-at)"/>
+      </g>
+      <g transform="translate(48.276 17.231)">
+        <mask id="illustration-av" fill="#fff">
+          <use xlink:href="#illustration-au"/>
+        </mask>
+        <polygon fill="#7C90A6" points="-.633 2.661 22.629 -6.296 30.079 13.171 6.817 22.128" mask="url(#illustration-av)"/>
+      </g>
+      <g transform="translate(46.405 7.847)">
+        <mask id="illustration-ax" fill="#fff">
+          <use xlink:href="#illustration-aw"/>
+        </mask>
+        <polygon fill="#0896FF" points="-3.081 1.173 5.473 -2.121 8.266 5.177 -.288 8.471" mask="url(#illustration-ax)"/>
+      </g>
+      <g transform="translate(46.405 13.477)">
+        <mask id="illustration-az" fill="#fff">
+          <use xlink:href="#illustration-ay"/>
+        </mask>
+        <polygon fill="#0896FF" points="-.689 2.896 8.783 -.751 10.153 2.83 .681 6.477" mask="url(#illustration-az)"/>
+      </g>
+      <g transform="translate(62.497 15.73)">
+        <mask id="illustration-aB" fill="#fff">
+          <use xlink:href="#illustration-aA"/>
+        </mask>
+        <polygon fill="#7C90A6" points="-.666 3.194 9.908 -.877 11.201 2.503 .627 6.574" mask="url(#illustration-aB)"/>
+      </g>
+      <g transform="translate(68.11 13.102)">
+        <mask id="illustration-aD" fill="#fff">
+          <use xlink:href="#illustration-aC"/>
+        </mask>
+        <polygon fill="#7C90A6" points="-.67 .773 3.33 -.768 4.866 3.244 .865 4.785" mask="url(#illustration-aD)"/>
+      </g>
+      <g transform="translate(63.994 14.604)">
+        <mask id="illustration-aF" fill="#fff">
+          <use xlink:href="#illustration-aE"/>
+        </mask>
+        <polygon fill="#7C90A6" points="-.751 .888 3.249 -.653 4.784 3.359 .784 4.9" mask="url(#illustration-aF)"/>
+      </g>
+      <g transform="translate(106.282 46.51)">
+        <mask id="illustration-aH" fill="#fff">
+          <use xlink:href="#illustration-aG"/>
+        </mask>
+        <polygon fill="#F5BEBF" points="6.798 -.686 9.928 35.205 1.937 35.906 -1.194 .015" mask="url(#illustration-aH)"/>
+      </g>
+      <g transform="translate(113.767 49.138)">
+        <mask id="illustration-aJ" fill="#fff">
+          <use xlink:href="#illustration-aI"/>
+        </mask>
+        <polygon fill="#61DBBB" points="7.255 -.615 8.716 16.138 .725 16.839 -.737 .086" mask="url(#illustration-aJ)"/>
+      </g>
+      <g transform="translate(115.264 66.03)">
+        <mask id="illustration-aL" fill="#fff">
+          <use xlink:href="#illustration-aK"/>
+        </mask>
+        <polygon fill="#61DBBB" points="5.173 -.587 6.279 12.093 .332 12.615 -.774 -.065" mask="url(#illustration-aL)"/>
+      </g>
+      <g transform="translate(117.135 55.52)">
+        <mask id="illustration-aN" fill="#fff">
+          <use xlink:href="#illustration-aM"/>
+        </mask>
+        <polygon fill="#FEFEFE" points="2.992 -.587 3.373 3.781 -.256 4.099 -.636 -.268" mask="url(#illustration-aN)"/>
+      </g>
+      <g transform="translate(116.76 50.64)">
+        <mask id="illustration-aP" fill="#fff">
+          <use xlink:href="#illustration-aO"/>
+        </mask>
+        <polygon fill="#FEFEFE" points="2.955 -.423 3.336 3.945 -.293 4.263 -.674 -.104" mask="url(#illustration-aP)"/>
+      </g>
+      <g transform="translate(117.51 60.024)">
+        <mask id="illustration-aR" fill="#fff">
+          <use xlink:href="#illustration-aQ"/>
+        </mask>
+        <polygon fill="#E0F8F2" points="3.016 -.526 3.397 3.841 -.232 4.16 -.613 -.207" mask="url(#illustration-aR)"/>
+      </g>
+      <g transform="translate(116.76 67.532)">
+        <mask id="illustration-aT" fill="#fff">
+          <use xlink:href="#illustration-aS"/>
+        </mask>
+        <polygon fill="#E0F8F2" points="2.794 -.692 3.671 9.37 .407 9.656 -.47 -.405" mask="url(#illustration-aT)"/>
+      </g>
+      <g transform="translate(14.22 61.526)">
+        <mask id="illustration-aV" fill="#fff">
+          <use xlink:href="#illustration-aU"/>
+        </mask>
+        <polygon fill="#E96B6B" points=".82 14.467 -.645 .487 10.294 -.666 11.759 13.314" mask="url(#illustration-aV)"/>
+      </g>
+      <g transform="translate(17.963 74.664)">
+        <mask id="illustration-aX" fill="#fff">
+          <use xlink:href="#illustration-aW"/>
+        </mask>
+        <polygon fill="#CF812D" points=".277 8.573 -.479 1.356 17.331 -.521 18.087 6.695" mask="url(#illustration-aX)"/>
+      </g>
+      <g transform="translate(23.202 59.649)">
+        <mask id="illustration-aZ" fill="#fff">
+          <use xlink:href="#illustration-aY"/>
+        </mask>
+        <polygon fill="#CF812D" points="1.172 17.111 -.656 -.335 2.266 -.643 4.094 16.803" mask="url(#illustration-aZ)"/>
+      </g>
+      <g transform="translate(26.196 61.15)">
+        <mask id="illustration-bb" fill="#fff">
+          <use xlink:href="#illustration-ba"/>
+        </mask>
+        <polygon fill="#CF812D" points="-.158 5.411 -.745 -.19 2.349 -.517 2.936 5.085" mask="url(#illustration-bb)"/>
+      </g>
+      <g transform="translate(31.436 60.775)">
+        <mask id="illustration-bd" fill="#fff">
+          <use xlink:href="#illustration-bc"/>
+        </mask>
+        <polygon fill="#CF812D" points="-.122 5.23 -.709 -.371 2.385 -.697 2.972 4.904" mask="url(#illustration-bd)"/>
+      </g>
+      <g transform="translate(28.816 61.15)">
+        <mask id="illustration-bf" fill="#fff">
+          <use xlink:href="#illustration-be"/>
+        </mask>
+        <polygon fill="#CF812D" points="-.14 5.133 -.727 -.469 2.367 -.795 2.954 4.807" mask="url(#illustration-bf)"/>
+      </g>
+      <g transform="translate(18.712 68.282)">
+        <mask id="illustration-bh" fill="#fff">
+          <use xlink:href="#illustration-bg"/>
+        </mask>
+        <polygon fill="#FFF" points=".136 5.586 -.473 -.228 4.006 -.7 4.615 5.114" mask="url(#illustration-bh)"/>
+      </g>
+      <g transform="translate(18.337 63.402)">
+        <mask id="illustration-bj" fill="#fff">
+          <use xlink:href="#illustration-bi"/>
+        </mask>
+        <polygon fill="#FCE9E9" points="-.108 4.559 -.56 .252 6.016 -.441 6.467 3.866" mask="url(#illustration-bj)"/>
+      </g>
+      <g transform="translate(16.466 64.153)">
+        <mask id="illustration-bl" fill="#fff">
+          <use xlink:href="#illustration-bk"/>
+        </mask>
+        <polygon fill="#FFF" points=".011 3.993 -.44 -.314 1.982 -.569 2.434 3.738" mask="url(#illustration-bl)"/>
+      </g>
+      <g transform="translate(17.215 68.658)">
+        <mask id="illustration-bn" fill="#fff">
+          <use xlink:href="#illustration-bm"/>
+        </mask>
+        <polygon fill="#FEFEFE" points="-.118 5.394 -.727 -.418 1.695 -.674 2.304 5.139" mask="url(#illustration-bn)"/>
+      </g>
+      <g transform="translate(5.613 79.919)">
+        <mask id="illustration-bp" fill="#fff">
+          <use xlink:href="#illustration-bo"/>
+        </mask>
+        <polygon fill="#9BCD8A" points=".256 13.388 -1.113 .323 11.919 -1.05 13.287 12.015" mask="url(#illustration-bp)"/>
+      </g>
+      <g transform="translate(4.865 64.153)">
+        <mask id="illustration-br" fill="#fff">
+          <use xlink:href="#illustration-bq"/>
+        </mask>
+        <polygon fill="#9BCD8A" points=".351 16.011 -1.286 .39 14.295 -1.253 15.932 14.368" mask="url(#illustration-br)"/>
+      </g>
+      <g transform="translate(0 73.538)">
+        <mask id="illustration-bt" fill="#fff">
+          <use xlink:href="#illustration-bs"/>
+        </mask>
+        <polygon fill="#9BCD8A" points=".387 14.476 -1.095 .336 13.009 -1.15 14.49 12.99" mask="url(#illustration-bt)"/>
+      </g>
+      <g transform="translate(7.485 72.787)">
+        <mask id="illustration-bv" fill="#fff">
+          <use xlink:href="#illustration-bu"/>
+        </mask>
+        <polygon fill="#9BCD8A" points=".556 17.708 -1.246 .501 15.916 -1.309 17.72 15.898" mask="url(#illustration-bv)"/>
+      </g>
+      <g transform="translate(32.558 55.52)">
+        <mask id="illustration-bx" fill="#fff">
+          <use xlink:href="#illustration-bw"/>
+        </mask>
+        <polygon fill="#CF812D" points="1.429 32.762 -2.031 -.262 2.559 -.745 6.02 32.278" mask="url(#illustration-bx)"/>
+      </g>
+      <g transform="translate(95.804 89.679)">
+        <mask id="illustration-bz" fill="#fff">
+          <use xlink:href="#illustration-by"/>
+        </mask>
+        <polygon fill="#155EA8" points="16.276 4.463 1.811 18.475 -3.364 13.1 11.101 -.912" mask="url(#illustration-bz)"/>
+      </g>
+      <g transform="translate(90.564 94.559)">
+        <mask id="illustration-bB" fill="#fff">
+          <use xlink:href="#illustration-bA"/>
+        </mask>
+        <polygon fill="#155EA8" points="18.96 2.059 4.494 16.071 -.681 10.696 13.784 -3.316" mask="url(#illustration-bB)"/>
+      </g>
+      <g transform="translate(86.448 85.174)">
+        <mask id="illustration-bD" fill="#fff">
+          <use xlink:href="#illustration-bC"/>
+        </mask>
+        <polygon fill="#819BBF" points="20.348 5.724 5.484 20.123 -.694 13.706 14.17 -.693" mask="url(#illustration-bD)"/>
+      </g>
+      <g transform="translate(98.05 88.928)">
+        <mask id="illustration-bF" fill="#fff">
+          <use xlink:href="#illustration-bE"/>
+        </mask>
+        <polygon fill="#FFF" points="5.987 2.631 2.465 6.043 -.936 2.51 2.586 -.901" mask="url(#illustration-bF)"/>
+      </g>
+      <g transform="translate(87.945 94.934)">
+        <mask id="illustration-bH" fill="#fff">
+          <use xlink:href="#illustration-bG"/>
+        </mask>
+        <polygon fill="#0896FF" points="6.55 3.39 3.188 6.647 -.754 2.553 2.609 -.703" mask="url(#illustration-bH)"/>
+      </g>
+      <g transform="translate(93.933 92.682)">
+        <mask id="illustration-bJ" fill="#fff">
+          <use xlink:href="#illustration-bI"/>
+        </mask>
+        <polygon fill="#FFF" points="6.11 2.746 2.588 6.158 -.813 2.625 2.709 -.786" mask="url(#illustration-bJ)"/>
+      </g>
+      <g transform="translate(83.828 .34)">
+        <mask id="illustration-bL" fill="#fff">
+          <use xlink:href="#illustration-bK"/>
+        </mask>
+        <polygon fill="#E96B6B" points="22.426 -.92 39.038 10.747 15.729 44.136 -.882 32.47" mask="url(#illustration-bL)"/>
+      </g>
+      <g transform="translate(105.534 3.718)">
+        <mask id="illustration-bN" fill="#fff">
+          <use xlink:href="#illustration-bM"/>
+        </mask>
+        <polygon fill="#FCE9E9" points="1.826 -.737 13.618 7.545 10.923 11.406 -.869 3.124" mask="url(#illustration-bN)"/>
+      </g>
+      <g transform="translate(101.791 8.973)">
+        <mask id="illustration-bP" fill="#fff">
+          <use xlink:href="#illustration-bO"/>
+        </mask>
+        <polygon fill="#FFF" points="1.967 -.834 9.062 4.149 6.367 8.01 -.728 3.026" mask="url(#illustration-bP)"/>
+      </g>
+      <g transform="translate(98.423 14.228)">
+        <mask id="illustration-bR" fill="#fff">
+          <use xlink:href="#illustration-bQ"/>
+        </mask>
+        <polygon fill="#FFF" points="1.734 -.931 13.527 7.351 10.832 11.212 -.96 2.929" mask="url(#illustration-bR)"/>
+      </g>
+      <g transform="translate(94.681 19.108)">
+        <mask id="illustration-bT" fill="#fff">
+          <use xlink:href="#illustration-bS"/>
+        </mask>
+        <polygon fill="#FCE9E9" points="1.876 -.653 8.971 4.33 6.276 8.191 -.819 3.208" mask="url(#illustration-bT)"/>
+      </g>
+      <g transform="translate(90.939 24.363)">
+        <mask id="illustration-bV" fill="#fff">
+          <use xlink:href="#illustration-bU"/>
+        </mask>
+        <polygon fill="#FCE9E9" points="2.017 -.75 13.81 7.533 11.115 11.393 -.678 3.111" mask="url(#illustration-bV)"/>
+      </g>
+      <g transform="translate(87.57 29.619)">
+        <mask id="illustration-bX" fill="#fff">
+          <use xlink:href="#illustration-bW"/>
+        </mask>
+        <polygon fill="#FCE9E9" points="1.785 -.847 13.577 7.435 10.882 11.296 -.91 3.014" mask="url(#illustration-bX)"/>
+      </g>
+    </g>
+  </g>
+</svg>
